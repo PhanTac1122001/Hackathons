@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type:none;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    display: flex;
+    margin-top: 20px;
+}
+.container .col-left{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    
+    align-self: center;
+    
+    
+}
+
+.icon{
+    
+    width: 7%;
+}
+.container .col-left .imgtitle{
+    margin-left: 5px;
+    margin-top: 7px;
+    width: 23%;
+    height: 70%;
+}
+.container .col-center{
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-start;
+    align-self: center;
+    
+}
+.container .col-center ul {
+    display: flex;
+
+}
+.container .col-center ul li{
+    padding-left: 40px;
+    margin-top: 5px;
+    
+}
+.container .col-center ul li a{
+   color: #647ab8;
+padding: 10px;
+border-radius: 5px;
+}
+.container .col-center ul li a:hover{
+    border: 1px solid #06bcd4;
+    background-color: chartreuse;
+    
+ }
+
+
+.container .col-right{
+    display: flex;
+    flex-grow: 1;
+    align-self: center;
+    
+}
+.container .col-right a{
+    border: 1px solid;
+    padding:5px 15px 5px 15px;
+    border-radius:4px ;
+    color: #1cc2d8;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.banner{
+    display: flex;
+    
+    height: 500px;
+    
+    margin-top: 20px;
+}
+
+.banner .banner-title{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20201215/pngtree-fold-kraft-white-paper-image_509390.jpg);
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 60% 5%;
+    
+
+}
+.banner .banner-title p{
+
+   color: #587495;
+}
+.banner .banner-title b{
+
+    font-size:40px;
+width: 500px;
+text-align: center;
+}
+.banner .banner-title .banner-border{
+    border-bottom:3px solid #f78b26;
+    display: inline-block;
+   margin-left: 4px;
+   margin-right: 50px;   
+}
+.banner .banner-title button{
+    margin-top: 20px;
+    padding: 10px; 
+    background-color: #06bcd4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.banner .banner-title button:hover{
+   background-color: red;
+}
+.banner .banner-img{
+    display: flex;
+    flex-grow: 1;
+    background-image: url(https://tiki.vn/blog/wp-content/uploads/2023/09/code-la-gi-thumbnail.jpg);
+    
+    border-bottom-right-radius: 60% 5%;
+   
+}
+.banner .banner-img img{
+    width: 50%;
+    
+}
+
+.main-detail{
+    display: flex;
+    margin-top: 100px;
+    
+
+}
+.main-detail .main-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-left: 100px;
+    position: relative;
+}
+.main-detail .main-title .main-form{
+    display: flex;
+    
+}
+.main-detail .main-title .main-form h2{
+    display: flex;
+    position: absolute;
+    top: -19px;
+}
+.main-detail .main-title .underline{
+   
+    background-color: #ffd35d;
+    width: 175px;
+    height: 5px;
+    bottom: -95px;
+}
+.main-detail .main-title p{
+    width: 360px;
+    margin-top: 20px;
+}
+
+
+.main-detail .main-title ul{
+    margin-top: 20px;
+    display: flex;  
+    font-size: 15px;
+    
+}
+.main-detail .main-title ul li{
+    
+    border: 1px solid black;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-left: 7px;
+    
+}
+.main-detail .main-title ul li a{
+    
+   color: #8997bd;
+    
+}
+.icon{
+    margin-left: 10px;
+}
+
+
+
+.main-detail .main-date{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    
+    
+}
+.main-detail .main-date div p{
+    display: inline-block;
+    flex-direction: row;
+    margin-top: 10px;
+    
+}
+
+.main-detail .main-date .weight{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-weight: bolder;
+}
+.fact{
+    width: 100px;
+    text-align: center;
+}
+.main-sidebar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.main-sidebar .form{
+    display: flex;
+    
+}
+.main-sidebar .main-top{
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 5px;
+    width: 250px; 
+    border-radius: 5px;
+    margin: 10px;
+}
+.main-sidebar .main-top:hover{
+    border: 2px solid red;
+}
+.main-sidebar .main-top img{
+    width: 20%;
+    margin: 15px; 
+}
+.main-sidebar .main-top .main-top-title{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main-sidebar .form2{
+    display: flex;
+    justify-content:center ;
+    margin-left: -70px;
+}
+.nav-form{
+    margin-top: 50px;
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+    height: 300px;
+    background-image: url(images/personal/testi-pet.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 20%;
+    background-color: #cbccce25;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.nav-form .nav-title{
+    background-image: url(images/p-light.svg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+.nav-form .nav-title p{
+    padding-top: 10px;
+}
+.nav-form form input{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(139, 138, 138, 0.781);
+}
+.nav-form form button{
+   background-color: #132b50;
+   color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(139, 138, 138, 0.781);
+    margin-right: 200px;
+}
+.nav-project{
+    display: flex;
+    justify-content: center
+}
+.nav-project .nav-project-title{
+    
+    margin-top: 100px;
+    text-align: center;
+    width: 500px;
+    
+}   
+
+.nav-project .nav-project-title button{
+    margin-bottom: 20px;
+    padding: 5px 10px 5px 10px;
+    background-color: #f0f9f2;
+    border: none;
+    color: #6bd196;
+    font-weight: bold;
+    
+}
+.sidebar{
+margin-top: 100px;
+margin-left: 100px;
+margin-right: 100px;
+}
+.sidebar .form-sidebar ul{
+    display: flex;
+    border-bottom:2px dashed rgba(179, 178, 178, 0.749) ;
+
+}   
+  
+.sidebar .form-sidebar ul li {
+    margin-bottom: 20px;
+} 
+.sidebar .form-sidebar ul li a{
+    
+    padding: 10px 20px 20px;
+   font-size: 20px;
+    
+} 
+.sidebar .form-sidebar ul li a:hover{
+    
+    
+   
+    border-bottom: 3px solid rgb(50, 199, 253);
+} 
+
+.main-project{
+
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+.main-project .main-box1{
+    display: flex;
+    
+}
+.main-project .main-project-top {
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.341) 0px 1px 2px 0px;
+    padding: 30px;
+    border-radius: 5px;
+    width:400px;
+    margin-left: 30px;
+}
+
+.main-project .main-project-top .box{
+    display: flex;
+    flex-direction: row;
+    
+}
+.main-project .main-project-top img{
+    
+    width:20%;
+    
+    border-radius: 5px;
+    padding: 15px;
+}
+.main-project .main-project-top .main-btn{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+.main-project .main-project-top .main-btn button{
+    padding:5px 10px 5px 10px;
+    background-color: #eaf2ff;
+    color: #3488ff;
+    border-radius: 5px;
+    border: none
+}
+.main-project .main-project-top .main-btn button:hover{
+   
+    background-color: #7af510;
+    color: white;
+    
+    border: none
+}
+.main-project .main-box2{
+    display: flex;
+    margin-top: 20px;
+}
+
+.form-getin {
+    position: relative;
+    bottom: -8px;
+    border-bottom-right-radius: 60% 5%;
+    border-bottom-left-radius: 60% 5%;
+}
+
+.form-getin .backgr{
+    
+    background-color: #fafbfd;
+    padding: 100px;
+   display: flex;
+   margin-top: 100px;
+}
+.form-getin .backgr .form-left{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px 0px 0px 5px;
+}
+.form-getin .backgr .form-left .form-left-title{
+    display: flex;
+    flex-direction: column;
+    
+    width: 400px;
+}
+.form-getin .form-left form{
+    display: grid;
+    grid-template-columns: auto  auto;
+    
+}
+
+.form-getin .form-left form div{
+    margin-top: 20px;  
+    
+}
+
+.form-getin .form-left form input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(126, 125, 125, 0.66);
+   padding-left: 10px;
+   margin-top: 20px;    
+   margin-bottom: 10px;
+}
+
+.form-getin .form-left textarea{
+    width: 800px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid rgba(126, 125, 125, 0.66);    
+   padding-left: 10px;
+   padding-top: 10px;
+   margin-top: 20px
+}
+.form-getin .form-left button{
+    padding: 10px 20px 10px 20px;
+    background-color: #06bcd4;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.form-getin .form-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    margin-left: -200px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0px 5px 5px 0px;
+ }
+.form-getin .form-right{
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   flex-grow: 1;
+    background-position:  center top;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-image: url(images/personal/contact.svg);
+    border-bottom: 1px dashed;
+    padding-bottom: 10px;
+    
+}
+.form-getin .form-right i{
+    padding: 15px;
+    background-color: #fafbfd;
+    color: black;
+    
+ }
+ .form-getin .form-right div{
+    margin-left: 10px;
+    
+ }
+
+.form-getin .form-backgr{
+    display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   flex-grow: 1;
+    background-position:  bottom right;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-image: url(images/personal/testi-pet.png);
+    padding-top: 10px;
+    
+ }
+ .form-getin .form-backgr div{
+    margin-left: 10px;
+    
+ }
+ .form-getin .form-backgr i{
+    padding: 15px;
+    background-color: #fafbfd;
+    
+    color: black;
+    
+ }
+ .footer{
+    height: 400px;
+    background-color: #172d51;
+    
+    
+    color: #495872;
+    
+}
+
+.form-footer{
+    
+    display: flex;
+    color: #495872;
+    
+}
+.form-footer .footer-box .footer-img{
+    padding-bottom: 20px;
+}
+.form-footer .footer-box{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-bottom: 1px solid #495872;
+    
+}
+.form-footer .footer-box .footer-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+
+.form-footer .footer-right .footer-top{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-left: 300px;
+    color: white;
+}
+.form-footer .footer-right .footer-top b:last-child{
+    margin-left: -25px;
+}
+.form-footer .footer-right .footer-center {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-left: 300px;
+    margin-top: 20px;
+    
+    
+}
+.form-footer .footer-right{
+    width: 100%;
+    border-bottom: 1px solid #495872;
+    padding-bottom: 20px;
+    
+}
+.form-footer .footer-right .footer-center ul li {
+    
+    
+    margin-top: 20px;
+    
+}
+.form-footer .footer-right .footer-center ul li a{
+    
+    color: #495872;
+    
+    
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top:20px ;
+}
+.footer .backgr-footer{
+    width: 100%;
+    height: 20px;
+    border-bottom-left-radius: 100% 100%;
+    border-bottom-right-radius: 100% 100%;
+    background-color: #fafbfd;
+}

@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "HN_JV240408_PhanDinhTac",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../../Downloads/images"
+		},
+		{
+			"name": "fonts",
+			"path": "../../Downloads/fonts"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HN_JV240408_PhanDinhTac"
+	}
+}
